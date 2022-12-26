@@ -13,8 +13,8 @@ compiled_model = ie.compile_model(model=model, device_name="CPU")
 output_layer = compiled_model.output(0)
 
 # Load Image
-#image = cv2.cvtColor(cv2.imread(filename="data/dog.jpg"), code=cv2.COLOR_BGR2RGB)
-image = cv2.cvtColor(cv2.imread(filename="data/cat.jpg"), code=cv2.COLOR_BGR2RGB)
+image = cv2.cvtColor(cv2.imread(filename="data/dog.jpg"), code=cv2.COLOR_BGR2RGB)
+#image = cv2.cvtColor(cv2.imread(filename="data/cat.jpg"), code=cv2.COLOR_BGR2RGB)
 input_image = cv2.resize(src=image, dsize=(224, 224))
 input_image = np.expand_dims(input_image, axis=0)
 
