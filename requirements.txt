@@ -1,2 +1,0 @@
-openvino-dev[tensorflow2]
-matplotlib
