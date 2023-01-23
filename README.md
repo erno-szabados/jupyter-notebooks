@@ -6,5 +6,8 @@ Various Notebook Examples
 - Interpolated time series visualization
 - Cosine similarity and CountVectorizer example
 - Vosk STT example with small audio sample
+- Genetic algorithm for 8-queens problem
+- Minimal decision tree example
+- Minimal NLTK example
 
 Colab sessions
